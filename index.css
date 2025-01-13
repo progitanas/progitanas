@@ -1,1 +1,59 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0.5em 0;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.competences-projets-container {
+    display: flex;
+    justify-content: space-around; /* Espace les éléments horizontalement */
+}
+
+.competences, .projets {
+    width: 45%; /* Ajuste la largeur des colonnes selon vos besoins */
+}
