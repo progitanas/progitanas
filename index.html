@@ -1,64 +1,58 @@
- <!DOCTYPE html>
+D'accord ! Voici le code HTML avec un thème en bleu :
+
+```html
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GeniDoc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007BFF; /* Couleur bleue */
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #0056b3; /* Couleur bleue foncée */
+            color: white;
+        }
+        .navbar .left {
+            display: flex;
+        }
+        .navbar .right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo {
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>[Votre Nom]</h1>
-        <h2>Ingénieur en Sciences de la Santé - Filière Digitale</h2>
-    </header>
-
-    <main>
-        <section id="parcours">
-            <h2>Mon Parcours</h2>
-            <ul>
-                <li>Baccalauréat Sciences Mathématiques B</li>
-                <li>Classes préparatoires Maths Physique 
-                    <ul>
-                        <li>MPS</li>
-                        <li>PMP</li>
-                    </ul>
-                </li>
-                <li>Licence Big Data & Cloud Computing - Université Hassan II</li>
-                <li>Cycle Ingénieur - École Supérieure Mohamed 6 
-                    <ul>
-                        <li>Ingénieur en Sciences de la Santé - Filière Digitale</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section id="competences">
-            <h2>Compétences</h2>
-            <ul>
-                <li>Liste de vos compétences techniques</li>
-                <li>Liste de vos compétences générales</li>
-            </ul>
-        </section>
-
-        <section id="projets">
-            <h2>Projets</h2>
-            <ul>
-                <li>Description de vos projets personnels ou académiques</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <ul>
-                <li>Votre email</li>
-                <li>Votre numéro de téléphone</li>
-                <li>Liens vers vos réseaux sociaux professionnels (LinkedIn, etc.)</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; [Votre Nom] - [Année]</p>
-    </footer>
+    <div class="navbar">
+        <div class="left">
+            <a href="#contact">Contact</a>
+            <a href="#apropos">A Propos</a>
+            <a href="#fonctionnalites">Fonctionnalités</a>
+        </div>
+        <div class="right">
+            <span>GeniDoc</span>
+            <img src="logo.png" alt="Logo" class="logo" width="30" height="30">
+        </div>
+    </div>
 </body>
 </html>
+```
+
+N'oubliez pas de remplacer `"logo.png"` par le chemin réel de votre logo. Si vous avez besoin d'autres modifications, faites-le moi savoir ! 😊
